@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Alauddin Sabari and I am a undergraduate student of Information and Communication Technology at a public institution in Bangladesh.
 - 👀 I’m interested in Datascience and AI filed.
 - 🌱 I’m currently working with two research team in the fieald of application of data science in drug discovery and disease interaction.
-- 💞️ I’m looking to collaborate on ...
+- 💞️ I’m looking to collaborate on Data Science and AI specially Deep learning application related community.
 - 📫 How to reach me ...
 
 <!---
