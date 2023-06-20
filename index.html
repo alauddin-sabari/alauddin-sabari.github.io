@@ -1,206 +1,415 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<title>Dennis Ivy</title>
-
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
-
-	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
-		rel="stylesheet">
-
-	<link rel="stylesheet" type="text/css" href="default.css">
-	<link id="theme-style" rel="stylesheet" type="text/css" href="">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="jigar sable, portfolio, jigar, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Jigar's Portfolio. Full-Stack Web Developer and Android App Developer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Jigar Sable</title>
 </head>
+<body oncontextmenu="return false">
 
-<body>
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
 
-	<section class="s1">
-		<div class="main-container">
-			<div class="greeting-wrapper">
-				<h1>Hi, I'm Alauddin Sabari</h1>
-			</div>
+<!-- navbar starts -->
+<header>
+        <a href="/" class="logo"><i class="fab fa-node-js"></i> Jigar</a>
 
-
-			<div class="intro-wrapper">
-				<div class="nav-wrapper">
-
-					<!-- Link around dots-wrapper added after tutorial video -->
-					<a href="index.html">
-						<div class="dots-wrapper">
-							<div id="dot-1" class="browser-dot"></div>
-							<div id="dot-2" class="browser-dot"></div>
-							<div id="dot-3" class="browser-dot"></div>
-						</div>
-					</a>
-
-
-					<ul id="navigation">
-						<li><a href="index.html#contact">Contact</a></li>
-
-					</ul>
-				</div>
-
-				<div class="left-column">
-					<img id="profile_pic" src="images/unnamed.png">
-					<h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
-
-					<div id="theme-options-wrapper">
-						<div data-mode="light" id="light-mode" class="theme-dot"></div>
-						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
-						<div data-mode="green" id="green-mode" class="theme-dot"></div>
-						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
-					</div>
-
-					<p id="settings-note">*Theme settings will be saved for<br>your next vist</p>
-				</div>
-
-				<div class="right-column">
-
-					<div id="preview-shadow">
-						<div id="preview">
-							<div id="corner-tl" class="corner"></div>
-							<div id="corner-tr" class="corner"></div>
-							<h3>What I Do</h3>
-							<p>I was a lead developer in a past life, now I enjoy teaching courses.</p>
-							<div id="corner-br" class="corner"></div>
-							<div id="corner-bl" class="corner"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="s2">
-		<div class="main-container">
-
-			<div class="about-wrapper">
-				<div class="about-me">
-					<h4>More about me</h4>
-
-					<p>I build new projects just to tickle my brain and love teaching others how they're made.</p>
-
-					<p>While I keep busy teaching courses, I still take interviews in search of a great team & projects
-						that interest me.</p>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
 
 
-					<hr>
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
 
-					<h4>TOP EXPERTISE</h4>
+    <div class="content">
+    <h2>Hi There,<br/> I'm Alauddin <span>Sabari</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/asabari/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://github.com/alauddin-sabari" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/AlauddinSabari" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <!-- <li><a class="telegram" aria-label="Telegram" href="https://t.me/lifecode5" target="_blank"><i class="fab fa-telegram-plane"></i></a></li> -->
+          <!-- <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/jigarsable.dev"><i class="fab fa-instagram" target="_blank"></i></a></li> -->
+          <li>
+            <a class="stackoverflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/12533191/alauddin-sabari" target="_blank">
+              <i class="fab fa-stack-overflow"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/LinkedIn.jpg" alt="">
+</div>
+</section>
+<!-- hero section ends -->
 
-					<p>Fullstack developer with primary focus on Django + React: <a target="_blank"
-							href="resume.pdf">Download Resume</a></p>
 
-					<div id="skills">
-						<ul>
-							<li>Python</li>
-							<li>Django</li>
-							<li>JavaScript</li>
-							<li>React</li>
-							<li>Postgres</li>
-						</ul>
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
 
-						<ul>
-							<li>Google Maps API</li>
-							<li>JS Charts</li>
-							<li>AWS (RDS/S3)</li>
-							<li>Heroku</li>
-							<li>HTML/CSS</li>
-						</ul>
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/about.jpeg" alt="">
+    </div>
+    <div class="content">
+        <h3>I'm Alauddin Sabari</h3>
+        <span class="tag">Full Stack Developer</span>
+        
+        <p>I am a Data Scientist with  Full-Stack developer experience based in Dhaka, Bangladesh. 
+          I am an Information Technology undergraduate from SPPU.
+          I am very passionate about improving my coding skills & developing applications & websites.
+          I build WebApps and Websites using MERN Stack.
+          Working for myself to improve my skills.
+          Love to build Full-Stack clones. </p>
+        
+        <div class="box-container">
+            <!-- <div class="box">
+              <p><span> age: </span> 20</p>
+              <p><span> phone : </span> +91 XXX-XXX-XXXX</p>
+            </div> -->
+            <div class="box">
+              <p><span> email : </span> aladinsabari@gmail.com</p>
+              <p><span> place : </span>Dhaka, Bangladesh</p>
+            </div>
+        </div>
+        
+        <div class="resumebtn">
+            <a href="https://drive.google.com/file/d/1srY-TVRKOzS-spvqnbhpT5KrTwVpOovp/view" target="_blank" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
 
-					</div>
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
 
-				</div>
+<!-- skills section starts -->
+<section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+          <div class="row" id="skillsContainer">
+
+            <!-- <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/color/48/000000/adobe-xd.png"/>
+                <span>AdobeXD</span>
+              </div>
+            </div> -->
+
+      </div>
+</div>
+</section>
+<!-- skills section ends -->
 
 
-				<div class="social-links">
-					<img id="social_img" src="images/Capture.PNG">
-					<h3>Find me on Twitter & Youtube</h3>
+<!-- education section starts -->
+<section class="education" id="education">
 
-					<a target="_blank" href="https://www.youtube.com/c/dennisivy">YouTube: @DennisIvy</a>
-					<br>
-					<a target="_blank" href="https://twitter.com/dennisivy11">Twitter: @DennisIvy11</a>
-				</div>
-			</div>
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
 
-		</div>
-	</section>
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
 
-	<section class="s1">
-		<div class="main-container">
-			<h3 style="text-align: center;">Some of my past projects</h3>
+    <div class="box-container">
 
-			<div class="post-wrapper">
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="./assets/images/educat/iu.jpeg" alt="">
+        </div>
+        <div class="content">
+        <h3>Bachelor of Science & Engineering in Information Technology</h3>
+        <p>Islamic University, Kushtia | Bangladesh</p>
+        <h4>2017-2020 | Completed</h4>
+        </div>
+    </div>
 
-				<div>
-					<div class="post">
-						<img class="thumbnail" src="images/dash.jpg">
-						<div class="post-preview">
-							<h6 class="post-title">Laboratory Management System</h6>
-							<p class="post-intro">Designed built & mantained a the lab managment system for FOI
-								Laboratories</p>
-							<a href="post.html">Read More</a>
-						</div>
-					</div>
-				</div>
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/images/educat/mm.jpg" alt="">
+      </div>
+      <div class="content">
+      <h3>HSC Science | Informatic Practices</h3>
+      <p>Govt. Michael Madhusudan (M M) College, Jashore| CBSE</p>
+      <h4>2018-2020 | Completed</h4>
+      </div>
+    </div>
 
-				<div>
-					<div class="post">
-						<img class="thumbnail" src="images/ecom.jpg">
-						<div class="post-preview">
-							<h6 class="post-title">Online Store - CoursePost Title</h6>
-							<p class="post-intro">Online store with paypal payments intergration and guest user shopping
-							</p>
-							<a href="post.html">Read More</a>
-						</div>
-					</div>
-				</div>
+</div>
+</section>
+<!-- education section ends -->
 
-				<div>
-					<div class="post">
-						<img class="thumbnail" src="images/membership site.jpg">
-						<div class="post-preview">
-							<h6 class="post-title">Membership Website</h6>
-							<p class="post-intro">Modulized guide for online courses with step by step intructions</p>
-							<a href="post.html">Read More</a>
-						</div>
-					</div>
-				</div>
 
-			</div>
-		</div>
-	</section>
+<!-- work project section starts -->
+<section class="work" id="work">
 
-	<section class="s2">
-		<div class="main-container">
-			<a href=""></a>
-			<h3 style="text-align: center;">Get In Touch</h3>
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
 
-			<form id="contact-form">
-				<a name="contact"></a>
+  <div class="box-container">
 
-				<label>Name</label>
-				<input class="input-field" type="text" name="name">
+    <!-- <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/jigar-sable/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div> -->
 
-				<label>Subject</label>
-				<input class="input-field" type="text" name="subject">
+</div>
 
-				<label>Email</label>
-				<input class="input-field" type="text" name="email">
+<div class="viewall">
+  <a href="/projects" class="btn"><span>View All</span>
+    <i class="fas fa-arrow-right"></i>
+</a>
+</div>
 
-				<label>Message</label>
-				<textarea class="input-field" name="message"></textarea>
+</section>
+<!-- work project section ends -->
 
-				<input id="submit-btn" type="submit" value="Send">
-			</form>
-		</div>
-	</section>
+<!-- experience section starts -->
+<section class="experience" id="experience">
 
-	<script type="text/javascript" src="script.js"></script>
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+  <div class="timeline">
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Self Employed</h2>
+        </div>
+        <div class="desc">
+            <h3>Full Stack Developer</h3>
+            <p>Oct 2021 - present</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Mapstreak Flyseas</h2>
+        </div>
+        <div class="desc">
+            <h3>Web Developer | Internship</h3>
+            <p>June 2021 - Dec 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>The Spark Foundation</h2>
+        </div>
+        <div class="desc">
+            <h3>Website Developer | Internship</h3>
+            <p>May 2021 - June 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>The Spark Foundation</h2>
+        </div>
+        <div class="desc">
+            <h3>Mobile Application Developer | Internship</h3>
+            <p>April 2021 - May 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Frshr Technologies</h2>
+        </div>
+        <div class="desc">
+            <h3>Wordpress Developer | Internship</h3>
+            <p>April 2021 - April 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>WonderingBlog</h2>
+        </div>
+        <div class="desc">
+            <h3>Web Development & SEO | Internship</h3>
+            <p>March 2021 - April 2021</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="morebtn">
+    <a href="/experience" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+  </a>
+  </div>
+
+</div>
+
+</section>
+<!-- experience section ends -->
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+  
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/images/contact1.png" alt="">
+      </div>
+    <form id="contact-form">
+      
+      <div class="form-group">
+        <div class="field">
+          <input type="text" name="name" placeholder="Name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="phone" placeholder="Phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="message">
+        <textarea placeholder="Message" name="message" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+        </div>
+        </div>
+      <div class="button-area">
+        <button type="submit">
+          Submit <i class="fa fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Alauddin's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+8801721718056</p>
+          <p> <i class="fas fa-envelope"></i>aladinsabari@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Dhaka, Bangladesh</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/asabari/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://github.com/alauddin-sabari" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <a href="mailto:aladinsabari@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <a href="https://twitter.com/AlauddinSabari" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+              <!-- <a href="https://t.me/lifecode5" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a> -->
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/jigar-sable"> jigar sable</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
 </body>
-
 </html>
